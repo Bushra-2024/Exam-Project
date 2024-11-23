@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <navbar class="bg-[#FEDBD3] flex px-[12%] justify-between font-semibold py-8 text-[#424551]">
-        <div class="flex items-center gap-5">
-            <img src="./img/logo.png" alt="Logo">
+    <navbar class="bg-[#FEDBD3] flex lg:px-[12%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+        <div class="hidden lg:flex items-center gap-5">
+            <img src="./img/logo.png" alt="" class="flex">
             <select class="bg-[#FEDBD3]">
-                <option value="/home.html">Homepage</option>
+                <option value="/home.html" style="color: #FF3F3A;">Homepage</option>
                 <option value="/about.html">About Us</option>
             </select>
             <select class="bg-[#FEDBD3]">
@@ -35,7 +35,8 @@
             </select>
         </div>
         
-        <div class="flex gap-5">
+        <div class="flex gap-5 items-center">
+            <img src="./img/logo.png" alt="" class="lg:hidden w-[60%]">
             <button class="bg-[#F95514] text-white px-2 py-2 border border-transparent rounded">Get
                 consultation</button>
             <button>Log in / Register</button>
@@ -43,10 +44,10 @@
     </navbar>
 
     <header class="bg-[#FEDBD3]">
-        <div class="flex bg-[#FEDBD3] px-[15%] pt-12 justify-between">
+        <div class="lg:flex bg-[#FEDBD3] px-[15%] pt-12 justify-between">
             <div>
                 <img src="./img/play-video.png" alt="">
-                <h1 class="py-10 text-[50px] font-bold">Enjoy studying with Createx Online Courses</h1>
+                <h1 class="py-10 lg:text-[50px] text-[35px] lg:text-start text-center font-bold">Enjoy studying with Createx Online Courses</h1>
                 <div class="flex gap-5">
                     <button class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 py-1.5 rounded-md">About
                         us</button>
@@ -56,21 +57,21 @@
             <img src="./img/illustration.png" alt="" class="w-[500px]">
         </div>
 
-        <div class="flex px-[12%] pt-14 gap-8 items-center justify-center pb-10">
+        <div class="flex lg:flex-row flex-col px-[12%] pt-14 gap-8 lg:items-center justify-center pb-10">
             <p class="flex gap-2 items-center"><span class=" text-[40px] font-bold">1200</span>Students graduated</p>
-            <img src="./img/ellipse.png" alt="">
+            <img src="./img/ellipse.png" alt="" class="lg:flex hidden">
             <p class="flex gap-2 items-center"><span class=" text-[40px] font-bold">84</span>Completed courses</p>
-            <img src="./img/ellipse.png" alt="">
+            <img src="./img/ellipse.png" alt="" class="lg:flex hidden">
             <p class="flex gap-2 items-center"><span class=" text-[40px] font-bold">16</span>Qualified tutors</p>
-            <img src="./img/ellipse.png" alt="">
+            <img src="./img/ellipse.png" alt="" class="lg:flex hidden">
             <p class="flex gap-2 items-center"><span class=" text-[40px] font-bold">5</span>Years of experience</p>
         </div>
     </header>
 
     <section>
-        <div class="flex justify-center px-[14%] gap-12 my-[10%]">
-            <img src="./img/image.png" alt="" class="w-[50%]">
-            <div class="flex flex-col w-[40%]">
+        <div class="lg:flex justify-center px-[14%] gap-12 my-[10%]">
+            <img src="./img/image.png" alt="" class="lg:w-[50%]">
+            <div class="flex flex-col lg:w-[40%]">
                 <p class="text-[18px] font-semibold">Who we are</p>
                 <h2 class="text-[40px] font-bold">Why Createx?</h2>
                 <p class="flex items-start gap-[2%] text-[#424551] py-2">
@@ -98,31 +99,31 @@
                     Ultricies amet justo et eget quisque purus vulputate dapibus tortor.
                 </p>
                 <br><br>
-                <button class="text-[white] border bg-[#FB4D22] px-2 py-2 rounded-md w-[35%]">More about us</button>
+                <button class="text-[white] border bg-[#FB4D22] px-2 py-2 rounded-md lg:w-[35%] m-auto lg:m-0">More about us</button>
             </div>
         </div>
     </section>
 
     <section class="px-[13%] pb-5">
         <h3 class="text-[18px] font-semibold">Ready to learn?</h3>
-        <div class="flex justify-between pb-10">
+        <div class="lg:flex justify-between pb-10">
             <h2 class="text-[35px] font-bold">Featured Courses</h2>
             <button class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-12 rounded-md">View all
                 courses</button>
         </div>
-        <div class="flex justify-center gap-[40px] mb-5">
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+        <div class="lg:flex justify-center gap-[40px] mb-5">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/imageman.png" alt="">
-                <div class="w-[60%]">
+                <div class="lg:w-[60%]">
                     <p class="bg-[#32D8B5] text-white p-[1px] w-[35%] text-center">Marketing</p>
                     <h3 class="text-[16px] font-semibold py-3">The Ultimate Google Ads Training Course</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$100</span> | by Jerome
                         Bell</p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/image3.png" alt="">
-                <div class="w-[60%]">
+                <div class="lg:w-[60%]">
                     <p class="bg-[#5A87FC] text-white p-[1px] w-[41%] text-center">Management</p>
                     <h3 class="text-[16px] font-semibold py-3">Prduct Management Fundamentals</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$480</span> | by Marvin
@@ -130,39 +131,39 @@
                 </div>
             </div>
         </div>
-        <div class="flex justify-center gap-[40px] mb-5">
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+        <div class="lg:flex justify-center gap-[40px] mb-5">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/image4.png" alt="">
-                <div class="w-[60%]">
-                    <p class="bg-[#F4982D] text-white p-[1px] w-[35%] text-center">HR & Recru</p>
+                <div class="lg:w-[60%]">
+                    <p class="bg-[#F4982D] text-white p-[1px] lg:w-[35%] w-[28%] text-center">HR & Recru</p>
                     <h3 class="text-[16px] font-semibold py-3">HR Management and Analytics</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$200</span> | by Leslie
                         Alexander Li</p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/image5.png" alt="">
-                <div class="w-[60%]">
-                    <p class="bg-[#32D8B5] text-white p-[1px] w-[35%] text-center">Marketing</p>
+                <div class="lg:w-[60%]">
+                    <p class="bg-[#32D8B5] text-white p-[1px] lg:w-[35%] w-[28%] text-center">Marketing</p>
                     <h3 class="text-[16px] font-semibold py-3">Brand Management & PR Communications</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$530</span> | by
                         Kristin Watson</p>
                 </div>
             </div>
         </div>
-        <div class="flex justify-center gap-[40px] mb-5">
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+        <div class="lg:flex justify-center gap-[40px] mb-5">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/image6.png" alt="">
-                <div class="w-[60%]">
+                <div class="lg:w-[60%]">
                     <p class="bg-[#5A87FC] text-white p-[1px] w-[35%] text-center">Management</p>
                     <h3 class="text-[16px] font-semibold py-3">Business Development Management</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$400</span> |by Dianne
                         Russell</p>
                 </div>
             </div>
-            <div class="flex items-center gap-3 border shadow-2xl mb-5 w-[55%]">
+            <div class="lg:flex items-center gap-3 border shadow-2xl mb-5 lg:w-[55%]">
                 <img src="./img/image7.png" alt="">
-                <div class="w-[60%]">
+                <div class="lg:w-[60%]">
                     <p class="bg-[#F52F6E] text-white p-[1px] w-[35%] text-center">Design</p>
                     <h3 class="text-[16px] font-semibold py-3">Graphic Design Basic</h3>
                     <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$500</span> | by Guy
@@ -175,7 +176,7 @@
     <section class="mt-5">
         <h3 class="text-[20px] font-semibold text-center">Our benefits</h3>
         <h2 class="text-[40px] font-bold text-center pb-5">That’s how we do it</h2>
-        <div class="flex justify-center">
+        <div class="lg:flex justify-center px-[20%] lg:px-0">
             <button
                 class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-12 rounded-md flex items-center gap-2 py-1"><img
                     src="./img/Star (Stroke).png" alt=""> Experienced Tutors</button>
@@ -187,8 +188,8 @@
                     src="./img/Vector.png" alt=""> Experienced Tutors</button>
         </div>
 
-        <div class="flex px-[14%] pt-[8%] items-center gap-[6%]">
-            <div class="w-[45%]">
+        <div class="lg:flex px-[14%] pt-[8%] items-center gap-[6%]">
+            <div class="lg:w-[45%]">
                 <h2>Only practicing tutors</h2>
                 <p class="text-[14px] text-[#424551]">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames
                     dictum suspendisse. Morbi mauris
@@ -196,7 +197,7 @@
                     diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus
                     vehicula.</p>
             </div>
-            <img src="./img/illustration (1).png" alt="" class="w-[52%]">
+            <img src="./img/illustration (1).png" alt="" class="lg:w-[52%]">
         </div>
     </section>
 
@@ -204,8 +205,8 @@
         <h3 class="text-[20px] font-semibold text-center pt-10">Our Events</h3>
         <h2 class="text-[40px] font-bold text-center pb-12">Lectures & workshops</h2>
 
-        <div class="flex flex-col gap-5">
-            <div class="flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2 border rounded-md">
+        <div class="lg:flex flex-col gap-5">
+            <div class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2 border rounded-md">
                 <p class="text-[60px] font-bold text-[#FF3F3A]">05</p>
                 <div>
                     <p class="text-[18px] font-semibold">August </p>
@@ -221,7 +222,7 @@
                     more</button>
             </div>
             <div
-                class="flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-2xl-custom">
+                class="hidden lg:flex flex-row items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-2xl-custom">
                 <p class="text-[60px] font-bold text-[#FF3F3A]">24</p>
                 <div>
                     <p class="text-[18px] font-bold">July </p>
@@ -235,7 +236,7 @@
                     more</button>
             </div>
             <div
-                class="flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray]">
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
                 <p class="text-[60px] font-bold text-[#FF3F3A]">16</p>
                 <div>
                     <p class="text-[18px] font-bold">July</p>
@@ -252,14 +253,14 @@
             </div>
         </div>
 
-        <div class="flex justify-center items-center py-[42px] gap-5">
+        <div class="flex flex-col lg:flex-rowjustify-center items-center lg:py-[42px] gap-5">
             <p class="text-[25px] font-bold">Do you want more?</p>
             <button class="text-[white] border bg-[#FB4D22] px-10 rounded-md flex items-center gap-2 py-3">Explore all
                 events</button>
         </div>
     </section>
 
-    <section class="flex py-20 px-[14%] gap-10">
+    <section class="lg:flex py-20 px-[14%] gap-10">
         <div>
             <h3 class="text-[20px] font-semibold pt-10">Createx Certificate</h3>
             <h2 class="text-[40px] font-bold pb-2">Your expertise will be confirmed</h2>
@@ -267,7 +268,7 @@
             </p>
             <img src="./img/logos.png" alt="">
         </div>
-        <img src="./img/image (1).png" alt="" class="w-[55%] h-[500px]">
+        <img src="./img/image (1).png" alt="" class="lg:w-[55%] lg:h-[500px]">
     </section>
 
     <section class="px-[14%] pb-20">
@@ -290,14 +291,14 @@
     <section>
         <div class="px-[14%]">
             <h3 class="text-[20px] font-semibold pt-10">Our blog</h3>
-            <div class="flex justify-between items-start">
+            <div class="lg:flex justify-between items-start">
                 <h2 class="text-[40px] font-bold pb-5">Latest posts</h2>
                 <button class="text-[white] border bg-[#FB4D22] px-10 rounded-md flex items-center gap-2 py-3">Go to
                     blog</button>
             </div>
         </div>
-        <div class=" flex gap-8 px-[14%]">
-            <div class="w-[30%] px-1">
+        <div class="lg:flex lg:gap-8 gap-[10%] px-[14%]">
+            <div class="lg:w-[30%] px-1">
                 <div class="bg-image11 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
                     <p class="flex items-center p[1px] bg-white w-[25%]"><img src="./img/mic.png" alt=""
                             class="bg-white text-[10px]">Podcast</p>
@@ -314,7 +315,7 @@
                     <button class="flex items-center gap-2">Listen <img src="img/Line (Stroke).png" alt=""></button>
                 </div>
             </div>
-            <div class="w-[30%] px-1">
+            <div class="lg:w-[30%] px-1">
                 <div class="bg-image12 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
                     <p class="flex items-center p[1px] bg-white w-[25%]"><img src="./img/Play.png" alt=""
                             class="bg-white text-[10px]">Video</p>
@@ -332,7 +333,7 @@
                     <button class="flex items-center gap-2">Watch <img src="img/Line (Stroke).png" alt=""></button>
                 </div>
             </div>
-            <div class="w-[30%] px-1">
+            <div class="lg:w-[30%] px-1">
                 <div class="bg-image13 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
                     <p class="flex items-center p[1px] bg-white w-[25%] gap-2"><img src="./img/Vector1.png" alt=""
                             class="bg-white text-[10px]">Article</p>
@@ -354,23 +355,23 @@
     </section>
 
     <section class="bg-[#FEDBD3] flex pt-5 mt-20">
-        <img src="./img/illustration (3).png" alt="" class="pt-[20%]">
-        <div class="w-[50%] m-5 pt-10">
+        <img src="./img/illustration (3).png" alt="" class="hidden lg:flex pt-[20%]">
+        <div class="lg:w-[50%] m-5 pt-10">
             <div>
                 <h3 class="text-[20px] font-semibold pt-10 text-center">Don’t miss anything</h3>
-                <h2 class="text-[40px] font-bold pb-2 text-center">Subscribe to the Createx School announcements</h2>
+                <h2 class="lg:text-[40px] text-[30px] font-bold pb-2 text-center">Subscribe to the Createx School announcements</h2>
             </div>
             <div class="flex gap-5 justify-center">
-                <input type="text" placeholder="Your working email" class="bg-white py-2 px-16 ">
-                <button class="bg-[#FF3F3A] text-[white] w-[20%] h-[50px] border rounded-xl">Subscribe</button>
+                <input type="text" placeholder="Your working email" class="bg-white py-2 lg:px-16 ">
+                <button class="bg-[#FF3F3A] text-[white] lg:w-[20%] lg:h-[50px] border rounded-xl">Subscribe</button>
             </div>
         </div>
-        <img src="./img/illustration (3).png" alt="" class="pt-[20%]">
+        <img src="./img/illustration (3).png" alt="" class="hidden lg:flex pt-[20%]">
     </section>
 
     <footer class="text-white">
-        <div class="bg-[#1E212C] px-[12%] py-16 flex gap-20 text-[13px]">
-            <div class="w-[30%]">
+        <div class="bg-[#1E212C] px-[6%] lg:px-[12%] py-16 flex flex-col lg:flex-row gap-10 lg:gap-20 text-[13px]">
+            <div class="lg:w-[30%]">
                 <img src="./img/logo3.png" alt="Createx Logo" class="mb-6">
                 <p class="leading-relaxed mb-6">
                     Createx Online School is a leader in online studying. We have lots of courses and programs from the
@@ -400,7 +401,6 @@
                     <li>Development</li>
                 </ul>
             </div>
-    
             <div class="leading-loose">
                 <h4 class="font-bold mb-4">CONTACT US</h4>
                 <ul class="space-y-2">
@@ -412,8 +412,7 @@
                     </li>
                 </ul>
             </div>
-    
-            <div class="leading-loose w-[30%]">
+            <div class="leading-loose lg:w-[30%]">
                 <h4 class="font-bold mb-4">SIGN UP TO OUR NEWSLETTER</h4>
                 <div class="flex items-center rounded-md overflow-hidden mb-4 bg-[#393C46] p-[5px]">
                     <input
@@ -430,12 +429,12 @@
                 </p>
             </div>
         </div>
-    
-        <div class="bg-[#292C37] flex justify-between py-4 text-sm px-[12%]">
+        <div class="bg-[#292C37] flex flex-col lg:flex-row justify-between py-4 text-sm px-[6%] lg:px-[12%]">
             <p>© All rights reserved. Made with ❤️ by Createx Studio</p>
-            <p>GO TO TOP</p>
+            <p class="mt-2 lg:mt-0 text-center lg:text-right">GO TO TOP</p>
         </div>
     </footer>
+    
     
 </body>
 
