@@ -667,6 +667,10 @@ video {
   margin-top: 20px;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .flex {
   display: flex;
 }
@@ -705,6 +709,10 @@ video {
 
 .w-\[28\%\] {
   width: 28%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
 }
 
 .w-\[33\%\] {
@@ -763,28 +771,16 @@ video {
   width: 100%;
 }
 
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[\] {
-  width: ;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
 .flex-row {
   flex-direction: row;
 }
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-start {
@@ -926,6 +922,11 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
 }
 
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
+}
+
 .border-transparent {
   border-color: transparent;
 }
@@ -1008,6 +1009,11 @@ video {
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity, 1));
 }
 
 .bg-transparent {
@@ -1210,16 +1216,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-\[30\%\] {
-  padding-left: 30%;
-  padding-right: 30%;
-}
-
-.px-\[20\] {
-  padding-left: 20;
-  padding-right: 20;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1256,24 +1252,8 @@ video {
   padding-right: 1rem;
 }
 
-.pr-\[100px\] {
-  padding-right: 100px;
-}
-
-.pr-\[200px\] {
-  padding-right: 200px;
-}
-
 .pr-\[230px\] {
   padding-right: 230px;
-}
-
-.pr-\[280px\] {
-  padding-right: 280px;
-}
-
-.pr-\[50px\] {
-  padding-right: 50px;
 }
 
 .pt-10 {
@@ -1508,6 +1488,12 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1541,6 +1527,16 @@ video {
   background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-red-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:bg-red-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:opacity-90:hover {
   opacity: 0.9;
 }
@@ -1564,6 +1560,24 @@ video {
 @media (min-width: 768px) {
   .md\:w-64 {
     width: 16rem;
+  }
+
+  .md\:w-\[30\%\] {
+    width: 30%;
+  }
+
+  .md\:w-\[33\%\] {
+    width: 33%;
+  }
+
+  .md\:w-\[34\%\] {
+    width: 34%;
+  }
+
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 }
 
@@ -1610,6 +1624,10 @@ video {
 
   .lg\:w-\[30\%\] {
     width: 30%;
+  }
+
+  .lg\:w-\[33\%\] {
+    width: 33%;
   }
 
   .lg\:w-\[35\%\] {
@@ -1660,8 +1678,8 @@ video {
     width: 95%;
   }
 
-  .lg\:w-\[20px\] {
-    width: 20px;
+  .lg\:w-\[34\%\] {
+    width: 34%;
   }
 
   .lg\:flex-row {
@@ -1699,6 +1717,11 @@ video {
     padding-right: 4rem;
   }
 
+  .lg\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .lg\:px-\[12\%\] {
     padding-left: 12%;
     padding-right: 12%;
@@ -1709,33 +1732,28 @@ video {
     padding-bottom: 42px;
   }
 
-  .lg\:px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
-  }
-
   .lg\:pl-20 {
     padding-left: 5rem;
-  }
-
-  .lg\:pr-\[230px\] {
-    padding-right: 230px;
-  }
-
-  .lg\:pr-\[200px\] {
-    padding-right: 200px;
   }
 
   .lg\:pr-\[100px\] {
     padding-right: 100px;
   }
 
-  .lg\:pr-\[50px\] {
-    padding-right: 50px;
+  .lg\:pr-\[200px\] {
+    padding-right: 200px;
+  }
+
+  .lg\:pr-\[230px\] {
+    padding-right: 230px;
   }
 
   .lg\:pr-\[280px\] {
     padding-right: 280px;
+  }
+
+  .lg\:pr-\[50px\] {
+    padding-right: 50px;
   }
 
   .lg\:text-right {
