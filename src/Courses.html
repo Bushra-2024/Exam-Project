@@ -1,13 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Courses</title>
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <navbar class=" flex lg:px-[12%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+        <div class="hidden lg:flex items-center gap-5">
+            <img src="./img/logo.png" alt="" class="flex">
+            <select>
+                <option value="/home.html">Homepage</option>
+                <option value="/about.html">About Us</option>
+            </select>
+            <select>
+                <option value="/courses.html" style="color: #FF3F3A;">Courses</option>
+                <option value="/course-details.html">Course</option>
+            </select>
+            <select>
+                <option value="/events.html">Event list</option>
+                <option value="/past-events.html">Event grid</option>
+                <option value="/event-details.html">Event</option>
+            </select>
+            <select>
+                <option value="/blog.html">Blog</option>
+                <option value="/blog-category.html">Single-p</option>
+            </select>
+            <select>
+                <option value="/contact.html">Contact</option>
+            </select>
+        </div>
+
+        <div class="flex gap-5 items-center">
+            <img src="./img/logo.png" alt="" class="lg:hidden w-[60%]">
+            <button class="bg-[#F95514] text-white px-2 py-2 border border-transparent rounded">Get
+                consultation</button>
+            <button>Log in / Register</button>
+        </div>
+    </navbar>
+
+    <header class="my-10">
+        <h3 class="text-[20px] font-semibold text-center">Enjoy your studying!</h3>
+        <h2 class="text-[40px] font-bold text-center pb-5">Our online courses</h2>
+
+        <div class="p-6 bg-gray-50 px-[14%]">
+            <div class="flex flex-col lg:flex-row items-center justify-between gap-4">
+                <div class="lg:flex lg:gap-4 gap-[500px] text-gray-600">
+                    <button class="text-[#FF3F3A] font-bold border border-[#FF3F3A] p-2 px-3">All <sup>17</sup></button>
+                    <button>Marketing <sup>4</sup></button>
+                    <button>Management <sup>3</sup></button>
+                    <button>HR & Recruiting <sup>5</sup></button>
+                    <button>Design <sup>2</sup></button>
+                    <button>Development <sup>3</sup></button>
+                </div>
+                <div class="flex items-center">
+                    <input type="text" placeholder="Search course..."
+                        class="border rounded-lg py-2 px-4 w-full md:w-64" />
+                    <img src="./img/Vector (Stroke).png" alt="">
+                </div>
+                  
+            </div>
+        </div>
+    </header>
+
+    <section class="px-[10%]">
+        <div class="lg:flex justify-center gap-[1px] mb-3">
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/11.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#32D8B5] text-white p-[1px] w-[35%] text-center mt-5">Marketing</p>
+                    <h3 class="text-[16px] font-semibold py-2">The Ultimate Google Ads Training Course</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$100</span> | by Jerome
+                        Bell</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/12.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#5A87FC] text-white p-[1px] w-[35%] text-center mt-5">Management</p>
+                    <h3 class="text-[16px] font-semibold py-2">The Ultimate Google Ads Training Course</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$480</span> | by Marvin
+                        McKinney</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/13.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#F89828] text-white p-[1px] w-[44%] text-center mt-5 text-[15px]">HR & Recruting</p>
+                    <h3 class="text-[16px] font-semibold py-2">HR Management and Analytics</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$200</span> | by Leslie
+                        Alexander Li</p>
+                </div>
+            </div>
+        </div>
+        <div class="lg:flex justify-center gap-[1px] my-10">
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/15.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#32D8B5] text-white p-[1px] w-[35%] text-center mt-5">Marketing</p>
+                    <h3 class="text-[16px] font-semibold py-2">Brand Management & PR Communications</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$530</span> | by
+                        Kristin Watson</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/image8.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#F52F6E] text-white p-[1px] w-[35%] text-center mt-5">Design</p>
+                    <h3 class="text-[16px] font-semibold py-2">The Ultimate Google Ads Training Course</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$500</span> | by Guy
+                        Hawkins</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/16.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#5A87FC] text-white p-[1px] w-[35%] text-center mt-5">Management</p>
+                    <h3 class="text-[16px] font-semibold py-2">The Ultimate Google Ads Training Course</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$400</span> | by Dianne
+                        Russell</p>
+                </div>
+            </div>
+        </div>
+        <div class="lg:flex justify-center gap-[1px] my-10">
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/321.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#5A87FC] text-white p-[1px] w-[35%] text-center mt-5">Development</p>
+                    <h3 class="text-[16px] font-semibold py-2">Highload Software Architecture</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$600</span> | by
+                        Brooklyn Simmons</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/21.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#FCCC94] text-white p-[1px] w-[45%] text-center mt-5">HR & Recruting</p>
+                    <h3 class="text-[16px] font-semibold py-2">Human Resources – Selection and Recruitment</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$150</span> | by
+                        Kathryn Murphy</p>
+                </div>
+            </div>
+            <div class="lg:flex flex-col items-center gap-0 mb-2 lg:w-[30%]">
+                <img src="./img/1.png" alt="" class="lg:w-[95%]">
+                <div class="w-[80%]">
+                    <p class="bg-[#F52F6E] text-white p-[1px] w-[35%] text-center mt-5">Design</p>
+                    <h3 class="text-[16px] font-semibold py-2">User Experience. Human-centered Design</h3>
+                    <p class="text-[#787A80] text-[18px]"><span class="text-[#FF4242] font-bold">$100</span> | by Cody
+                        Fisher</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <p class="flex gap-2 justify-center my-10"><img src="./img/Convert.png" alt=""> Load more</p>
+
+    <section class="px-[14%]">
+        <h3 class="text-center mt-[10%] text-[20px]">TESTIMONIALS</h3>
+        <h2 class="text-center text-[30px] font-bold">What our students say</h2>
+        <div class="flex items-center">
+            <img src="./img/prev-btn.png" alt="">
+            <div class="lg:w-[70%] w-[100%] lg:ml-32 mt-10">
+                <div class="flex flex-col items-start">
+                   <div class="flex items-start gap-5">
+                    <img src="./img/braces.png" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis
+                        fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non.
+                        Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam
+                        integer in.</p>
+                   </div>
+                    <img src="./img/user-profile.png" alt="" class="pl-10 py-10">
+                </div>
+            </div>
+            <img src="./img/hover.png" alt="" class="lg:pl-20 ">
+        </div>
+        <img src="./img/dots.png" alt="" class="my-[10%] m-auto">
+    </section>
+
+     <section class="lg:flex py-20 px-[14%] gap-10">
+        <div>
+            <h3 class="text-[20px] font-semibold pt-10">Createx Certificate</h3>
+            <h2 class="text-[40px] font-bold pb-2">Your expertise will be confirmed</h2>
+            <p class="text-[#424551] py-5">We are accredited by international professional organizations and institutes:
+            </p>
+            <img src="./img/logos.png" alt="">
+        </div>
+        <img src="./img/image (1).png" alt="" class="lg:w-[55%] lg:h-[500px]">
+    </section>
+
 </body>
+
 </html>
