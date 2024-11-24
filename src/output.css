@@ -763,6 +763,22 @@ video {
   width: 100%;
 }
 
+.w-\[20px\] {
+  width: 20px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1192,6 +1208,16 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-\[30\%\] {
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+.px-\[20\] {
+  padding-left: 20;
+  padding-right: 20;
 }
 
 .pb-10 {
@@ -1634,6 +1660,10 @@ video {
     width: 95%;
   }
 
+  .lg\:w-\[20px\] {
+    width: 20px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1679,8 +1709,33 @@ video {
     padding-bottom: 42px;
   }
 
+  .lg\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .lg\:pl-20 {
     padding-left: 5rem;
+  }
+
+  .lg\:pr-\[230px\] {
+    padding-right: 230px;
+  }
+
+  .lg\:pr-\[200px\] {
+    padding-right: 200px;
+  }
+
+  .lg\:pr-\[100px\] {
+    padding-right: 100px;
+  }
+
+  .lg\:pr-\[50px\] {
+    padding-right: 50px;
+  }
+
+  .lg\:pr-\[280px\] {
+    padding-right: 280px;
   }
 
   .lg\:text-right {
