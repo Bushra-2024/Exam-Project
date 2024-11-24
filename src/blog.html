@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,306 @@
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <navbar class=" flex lg:px-[12%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+        <div class="hidden lg:flex items-center gap-5">
+            <img src="./img/logo.png" alt="" class="flex">
+            <select>
+                <option value="a">Homepage</option>
+                <option value="/about.html">About Us</option>
+            </select>
+            <select>
+                <option value="/courses.html">Courses</option>
+                <option value="/course-details.html">Course</option>
+            </select>
+            <select>
+                <option value="/events.html" style="color: #FF3F3A;">Event list</option>
+                <option value="/past-events.html">Event grid</option>
+                <option value="/event-details.html">Event</option>
+            </select>
+            <select>
+                <option value="/blog.html">Blog</option>
+                <option value="/blog-category.html">Single-p</option>
+            </select>
+            <select>
+                <option value="/contact.html">Contact</option>
+            </select>
+        </div>
+
+        <div class="flex gap-5 items-center">
+            <img src="./img/logo.png" alt="" class="lg:hidden w-[60%]">
+            <button class="bg-[#F95514] text-white px-2 py-2 border border-transparent rounded">Get
+                consultation</button>
+            <button>Log in / Register</button>
+        </div>
+    </navbar>
+
+    <header class=" py-20">
+        <h2 class="text-center font-semibold text-xl">Our blog</h2>
+        <h1 class="lg:text-[40px] text-[22px] font-bold text-center px-[15%]">Createx School Journal</h1>
+    </header>
+    <section class="mb-10">
+        <div
+            class="lg:flex items-center justify-center p-4 bg-white border rounded-md lg:px-[10%] px-[20%] gap-10 my-20">
+            <div class="flex items-center gap-2">
+                <label for="category" class="text-sm font-semibold">Event Category</label>
+                <select id="category" class="p-2 border border-gray-300">
+                    <option value="all-themes">All Themes</option>
+                </select>
+            </div>
+
+            <div class="flex items-center gap-1">
+                <label for="sort" class="text-sm font-semibold">Sort By</label>
+                <select id="sort" class="p-2 border border-gray-300">
+                    <option value="newest">Newest</option>
+                </select>
+            </div>
+
+            <div class="flex items-center gap-1">
+                <label for="show" class="text-sm font-semibold">Show</label>
+                <input id="show" type="number" value="9" class=" p-[1px] w-[33px] text-center border border-gray-300">
+                <span class="text-sm text-gray-700">events per page</span>
+            </div>
+
+            <div class="flex items-center justify-center p-2 border border-gray-300">
+                <input type="text" placeholder="Search events...">
+                <img src="img/Vector (Stroke).png" alt="">
+            </div>
+            <img src="./img/view.png" alt="" class="hidden lg:block">
+        </div>
+
+        <div class="lg:flex lg:gap-8 gap-[10%] px-[14%]">
+            <div class="lg:w-[30%] px-1 my-10 lg:my-0">
+                <div class="bg-image11 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%]"><img src="./img/mic.png" alt=""
+                            class="bg-white text-[10px]">Podcast</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Marketing</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">September 4, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">What is traffic arbitrage and does it really make money?</h3>
+                    <p class="text-[#424551]">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis
+                        proin dignissim lacus, purus gravida...</p>
+                    <button class="flex items-center gap-2 mt-6">Listen <img src="img/Line (Stroke).png"
+                            alt=""></button>
+                </div>
+            </div>
+            <div class="lg:w-[32%] px-1 lg:my-0">
+                <div class="bg-image333 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%] gap-2"><img src="./img/Vector1.png" alt=""
+                        class="bg-white text-[10px]">Article</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Development</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">September 1, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">How to choose the first programming language for a beginner</h3>
+                    <p class="text-[#424551]">Turpis sed at magna laoreet gravida consequat tortor placerat. Gravida vitae aliquet enim egestas dui...</p>
+                    <button class="flex items-center gap-2 mt-5">Read<img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+            <div class="lg:w-[30%] px-1 my-10 lg:my-0">
+                <div class="bg-image13 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[20%]"><img src="./img/Play.png" alt=""
+                        class="bg-white text-[10px]">Video</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Design</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">August 8, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">40 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">Should you choose a creative profession if you are attracted to creativity?</h3>
+                    <p class="text-[#424551]">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</p>
+                    <button class="flex items-center gap-2">Watch <img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="lg:flex lg:gap-1 gap-[10%] px-[13%] my-10 ">
+            <div class="lg:w-[60%] px-[1px] my-10 lg:my-0">
+                <div class="bg-imageeee h-[230px] w-[580px] bg-cover bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%] gap-2"><img src="./img/Vector1.png" alt=""
+                        class="bg-white text-[10px]">Article</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>HR & Recruting</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">August 3, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">HR statistics: job search, interviews, hiring and recruiting
+                    </h3>
+                    <p class="text-[#424551] my-5">Massa, lectus nibh consectetur aliquet nunc risus aenean. Leo hac netus
+                        bibendum diam adipiscing aenean nisl. Molestie nullam ante mattis ac sit vitae pellentesque mi
+                        etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...</p>
+                    <button class="flex items-center gap-2">Read <img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="lg:w-[33%] px-1 my-10 lg:my-0">
+                <div class="bg-image12 h-[230px] w-[370px] bg-cover bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%]"><img src="./img/Play.png" alt=""
+                        class="bg-white text-[10px]">Video</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Marketing</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">September 4, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">Should you choose a creative profession if you are attracted
+                        to creativity?</h3>
+                    <p class="text-[#424551] my-2">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor,
+                        viverra sed vulputate ultrices...</p>
+                    <button class="flex items-center gap-2">Watch<img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="lg:flex lg:gap-8 gap-[10%] px-[14%]">
+            <div class="lg:w-[30%] px-1 my-10 lg:my-0">
+                <div class="bg-image444 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%]"><img src="./img/mic.png" alt=""
+                            class="bg-white text-[10px]">Podcast</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Design</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">July 28, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">What are color profiles and how they work in graphic design</h3>
+                    <p class="text-[#424551]">Aliquam vulputate hendrerit quam sollicitudin urna enim viverra gravida. Consectetur urna arcu eleifend...</p>
+                    <button class="flex items-center gap-2 mt-6">Listen <img src="img/Line (Stroke).png"
+                            alt=""></button>
+                </div>
+            </div>
+            <div class="lg:w-[32%] px-1 lg:my-0">
+                <div class="bg-image555 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p-[1px] bg-white w-[20%]"><img src="./img/Play.png" alt=""
+                        class="bg-white text-[10px]">Video</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Management</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">July 15, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">36 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">Startup: how to build a team that will live longer than a year</h3>
+                    <p class="text-[#424551]">Nisi, massa ut sit faucibus et diam. Faucibus at malesuada at justo scelerisque in nisi, urna...</p>
+                    <button class="flex items-center gap-2 mt-5">Watch<img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+            <div class="lg:w-[30%] px-1 my-10 lg:my-0">
+                <div class="bg-image666 h-[230px] w-[340px] bg-contain bg-no-repeat pt-[5px] pl-2 ">
+                    <p class="flex items-center p[1px] bg-white w-[25%] gap-2"><img src="./img/Vector1.png" alt=""
+                        class="bg-white text-[10px]">Article</p>
+                </div>
+                <div>
+                    <div class="text-[#787A80] flex px-2 py-2 text-[12px]">
+                        <p>Marketing</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Calendar.png" alt="">August 8, 2020</p>
+                        <p class="flex items-center gap-2"> | <img src="./img/Clock.png" alt="">40 min</p>
+                    </div>
+                    <h3 class="text-[17px] font-semibold">How to get customers to love your business from the start</h3>
+                    <p class="text-[#424551]">Malesuada in augue mi feugiat morbi a aliquet enim. Elementum lacus, pellentesque etiam arcu tristique ac...</p>
+                    <button class="flex items-center gap-2 mt-4">Read<img src="img/Line (Stroke).png" alt=""></button>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center items-center gap-2 mt-10">
+            <button class="w-8 h-8 border rounded-md text-[#FF3F3A] text-lg">1</button>
+            <button class="w-8 h-8 border rounded-md text-gray-500">2</button>
+            <button class="w-8 h-8 border rounded-md text-gray-500">3</button>
+            <button class="w-8 h-8 border rounded-md text-gray-500">4</button>
+            <img src="./img/Line (Stroke)2.png" alt="">
+          </div>
+    </section>
+
+    <section class=" w-[80%] lg:flex m-auto p-10 items-center justify-between">
+        <img src="./img/illustration (12).png" alt="" class="lg:w-[33%]">
+        <div class="lg:w-[60%]">
+            <h2 class="text-[30px] font-bold text-center lg:text-start">Want to get the best articles weekly?
+                Subscribe to our newsletter!</h2>
+        <div class="my-2 lg:my-10">
+            <input type="text" placeholder="Your working email" class="lg:w-[60%] h-[45px] bg-white border rounded-md p-2">
+            <button class="ml-[20%] text-[white] border bg-[#FB4D22] lg:px-2 py-2 rounded-md lg:w-[25%] w-[40%] m-auto lg:m-0">Subscribe</button>
+            <p class="flex items-center mt-10 gap-2"><img src="./img/checked.png" alt="">I agree to receive communications from Createx Online School</p>
+        </div>
+        </div>
+    </section>
+
+    <footer class="text-white">
+        <div class="bg-[#1E212C] px-[6%] lg:px-[12%] py-16 flex flex-col lg:flex-row gap-10 lg:gap-20 text-[13px]">
+            <div class="lg:w-[30%]">
+                <img src="./img/logo3.png" alt="Createx Logo" class="mb-6">
+                <p class="leading-relaxed mb-6">
+                    Createx Online School is a leader in online studying. We have lots of courses and programs from the
+                    main market experts. We provide relevant approaches to online learning, internships and employment
+                    in the largest companies in the country.
+                </p>
+                <img src="./img/socials.png" alt="Social Media Links">
+            </div>
+            <div class="leading-loose">
+                <h4 class="font-bold mb-4">SITEMAP</h4>
+                <ul class="space-y-2">
+                    <li>About Us</li>
+                    <li>Courses</li>
+                    <li>Events</li>
+                    <li>Blog</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
     
+            <div>
+                <h4 class="font-bold mb-4">COURSES</h4>
+                <ul class="space-y-2">
+                    <li>Marketing</li>
+                    <li>Management</li>
+                    <li>HR & Recruiting</li>
+                    <li>Design</li>
+                    <li>Development</li>
+                </ul>
+            </div>
+            <div class="leading-loose">
+                <h4 class="font-bold mb-4">CONTACT US</h4>
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-2">
+                        <img src="./img/Rectangle (Stroke).png" alt="Phone Icon">(405) 555-0128
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <img src="./img/Mail.png" alt="Mail Icon">hello@createx.com
+                    </li>
+                </ul>
+            </div>
+            <div class="leading-loose lg:w-[30%]">
+                <h4 class="font-bold mb-4">SIGN UP TO OUR NEWSLETTER</h4>
+                <div class="flex items-center rounded-md overflow-hidden mb-4 bg-[#393C46] p-[5px]">
+                    <input
+                        type="text"
+                        placeholder="Email address"
+                        class="py-2 px-4 w-full bg-[#393C46] outline-none"
+                    >
+                    <button>
+                        <img src="./img/Right.png" alt="" class="pr-4">
+                    </button>
+                </div>
+                <p class="text-sm">
+                    *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+                </p>
+            </div>
+        </div>
+        <div class="bg-[#292C37] flex flex-col lg:flex-row justify-between py-4 text-sm px-[6%] lg:px-[12%]">
+            <p>© All rights reserved. Made with ❤️ by Createx Studio</p>
+            <p class="mt-2 lg:mt-0 text-center lg:text-right">GO TO TOP</p>
+        </div>
+    </footer>
 </body>
+
 </html>
