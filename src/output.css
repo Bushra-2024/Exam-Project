@@ -818,6 +818,14 @@ video {
   width: 100%;
 }
 
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
@@ -1297,6 +1305,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1595,6 +1608,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-\[\] {
+  color: ;
 }
 
 .underline {
@@ -1940,5 +1957,14 @@ video {
 
   .lg\:text-\[50px\] {
     font-size: 50px;
+  }
+
+  .lg\:text-\[37px\] {
+    font-size: 37px;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
