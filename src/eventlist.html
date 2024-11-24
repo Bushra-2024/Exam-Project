@@ -8,6 +8,214 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <navbar class=" flex lg:px-[12%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+        <div class="hidden lg:flex items-center gap-5">
+            <img src="./img/logo.png" alt="" class="flex">
+            <select>
+                <option value="/home.html">Homepage</option>
+                <option value="/about.html">About Us</option>
+            </select>
+            <select>
+                <option value="/courses.html">Courses</option>
+                <option value="/course-details.html">Course</option>
+            </select>
+            <select>
+                <option value="/events.html" style="color: #FF3F3A;">Event list</option>
+                <option value="/past-events.html">Event grid</option>
+                <option value="/event-details.html">Event</option>
+            </select>
+            <select>
+                <option value="/blog.html">Blog</option>
+                <option value="/blog-category.html">Single-p</option>
+            </select>
+            <select>
+                <option value="/contact.html">Contact</option>
+            </select>
+        </div>
+
+        <div class="flex gap-5 items-center">
+            <img src="./img/logo.png" alt="" class="lg:hidden w-[60%]">
+            <button class="bg-[#F95514] text-white px-2 py-2 border border-transparent rounded">Get
+                consultation</button>
+            <button>Log in / Register</button>
+        </div>
+    </navbar>
+    <header class=" py-20">
+        <h2 class="text-center font-semibold text-xl">Our events</h2>
+        <h1 class="lg:text-[40px] text-[22px] font-bold text-center px-[15%]">Lectures, workshops & master-classes</h1>
+    </header>
+    <section>
+        <div class="flex items-center justify-center p-4 bg-white border rounded-md px-[10%] gap-10 my-20">
+            <div class="flex items-center gap-2">
+              <label for="category" class="text-sm font-semibold">Event Category</label>
+              <select id="category" class="p-2 border border-gray-300">
+                <option value="all-themes">All Themes</option>
+              </select>
+            </div>
+          
+            <div class="flex items-center gap-1">
+              <label for="sort" class="text-sm font-semibold">Sort By</label>
+              <select id="sort" class="p-2 border border-gray-300">
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+
+            <div class="flex items-center gap-1">
+              <label for="show" class="text-sm font-semibold">Show</label>
+              <input id="show" type="number" value="9" class=" p-[1px] w-[33px] text-center border border-gray-300">
+              <span class="text-sm text-gray-700">events per page</span>
+            </div>
+            
+            <div class="flex items-center p-2 border border-gray-300">
+              <input type="text" placeholder="Search events...">
+              <img src="img/Vector (Stroke).png" alt="">
+            </div>
+           <img src="./img/view.png" alt="">
+          </div>
+          
+          <div class="lg:flex flex-col gap-5">
+            <div class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2 border rounded-md">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">05</p>
+                <div>
+                    <p class="text-[18px] font-semibold">August </p>
+                    <p class="text-[#787A80]">11:00 – 14:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-semibold">Formation of the organizational structure of the company in the
+                        face of uncertainty.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2 border rounded-md">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">24</p>
+                <div>
+                    <p class="text-[18px] font-semibold">July</p>
+                    <p class="text-[#787A80]">11:00 – 12:30</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-semibold pr-[230px]">Building a customer service department. Best Practices.</p>
+                    <p class="text-[#787A80]">Onine workshop</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="hidden lg:flex flex-row items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-2xl-custom">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">16</p>
+                <div>
+                    <p class="text-[18px] font-bold">July </p>
+                    <p class="text-[#787A80]">11:00 – 13:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold">How to apply methods of speculative design in practice. Worldbuilding prototyping.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button class="text-[white] border bg-[#FB4D22] px-6 rounded-md flex items-center gap-2 py-3">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">10</p>
+                <div>
+                    <p class="text-[18px] font-bold">July</p>
+                    <p class="text-[#787A80]">09:00 – 14:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold pr-[200px]">Find and evaluate: search and assessment tools for candidates.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">27</p>
+                <div>
+                    <p class="text-[18px] font-bold">June</p>
+                    <p class="text-[#787A80]">15:00 – 19:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold pr-[100px]">Marketing or growth hacking: main differences and what business needs.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">15</p>
+                <div>
+                    <p class="text-[18px] font-bold">June</p>
+                    <p class="text-[#787A80]">10:00 – 12:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold pr-[100px]">Marketing or growth hacking: main differences and what business needs.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">02</p>
+                <div>
+                    <p class="text-[18px] font-bold">June</p>
+                    <p class="text-[#787A80]">11:00 – 13:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold pr-[50px]">How to brief a client and present your design to approve it from the first show.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">29</p>
+                <div>
+                    <p class="text-[18px] font-bold">May</p>
+                    <p class="text-[#787A80]">11:00 – 12:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold pr-[280px]">Who is a project manager and do I want to be PM?</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2.5">View
+                    more</button>
+            </div>
+            <div
+                class="lg:flex items-center gap-5 justify-center bg-white w-[82%] m-auto py-2.5 border rounded-md shadow-3xl shadow-[gray] mt-10 lg:mt-0">
+                <p class="text-[60px] font-bold text-[#FF3F3A]">18</p>
+                <div>
+                    <p class="text-[18px] font-bold">May</p>
+                    <p class="text-[#787A80]">10:00 – 12:00</p>
+                </div>
+                <div>
+                    <p class="text-[18px] font-bold">The company's business page as an additional tool to support the announcement of vacancies.</p>
+                    <p class="text-[#787A80]">Onine master-class</p>
+                </div>
+                <button
+                    class="text-[#FB4D22] border border-[#FB4D22] bg-transparent px-5 rounded-md flex items-center gap-2 py-2 mr-12">Viewmore</button>
+            </div>
+            <div class="flex justify-center items-center gap-2 mt-10">
+                <button class="w-8 h-8 border rounded-md text-[#FF3F3A] text-lg">1</button>
+                <button class="w-8 h-8 border rounded-md text-gray-500">2</button>
+                <button class="w-8 h-8 border rounded-md text-gray-500">3</button>
+                <button class="w-8 h-8 border rounded-md text-gray-500">4</button>
+                <img src="./img/Line (Stroke)2.png" alt="">
+              </div>
+          
+        </div>
+
+    </section>
 </body>
 </html>
