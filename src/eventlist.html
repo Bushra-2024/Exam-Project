@@ -8,38 +8,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <navbar class=" flex lg:px-[12%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
-        <div class="hidden lg:flex items-center gap-5">
-            <img src="./img/logo.png" alt="" class="flex">
-            <select>
-                <option value="a">Homepage</option>
-                <option value="/about.html">About Us</option>
-            </select>
-            <select>
-                <option value="/courses.html">Courses</option>
-                <option value="/course-details.html">Course</option>
-            </select>
-            <select>
-                <option value="/events.html" style="color: #FF3F3A;">Event list</option>
-                <option value="/past-events.html">Event grid</option>
-                <option value="/event-details.html">Event</option>
-            </select>
-            <select>
-                <option value="/blog.html">Blog</option>
-                <option value="/blog-category.html">Single-p</option>
-            </select>
-            <select>
-                <option value="/contact.html">Contact</option>
-            </select>
+    <nav class=" flex lg:px-[8%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+        <img src="./img/logo.png" alt="" class="lg:hidden block w-[85px] mr-3">
+        <div class="hidden lg:flex items-start gap-[10px]">
+            <img src="./img/logo.png" alt="" class="">
+            <a href="./index.html" class="hover:underline">Homepage</a>
+            <a href="./aboutus.html" class="hover:underline">About Us</a>
+            <a href="./Courses.html" class="hover:underline">Courses</a>
+            <a href="./course.html" class="hover:underline">Course</a>
+            <a href="./eventslist.html" class="hover:underline text-[#FF3F3A]">Event List</a>
+            <a href="./eventgrid.html" class="hover:underline">Event Grid</a>
+            <a href="./event.html" class="hover:underline">Event</a>
+            <a href="./blog.html" class="hover:underline">Blog</a>
+            <a href="./singlepost.html" class="hover:underline">Single Post</a>
+            <a href="./contact.html" class="hover:underline ">Contact</a>
         </div>
-
-        <div class="flex gap-5 items-center">
-            <img src="./img/logo.png" alt="" class="lg:hidden w-[60%]">
-            <button class="bg-[#F95514] text-white px-2 py-2 border border-transparent rounded">Get
-                consultation</button>
+        <div class="flex gap-1 items-center">
+            <button class="bg-[#F95514] text-white lg:px-5 py-1 border border-transparent rounded">
+                Get consultation
+            </button>
             <button>Log in / Register</button>
         </div>
-    </navbar>
+    </nav>
     <header class=" py-20">
         <h2 class="text-center font-semibold text-xl">Our events</h2>
         <h1 class="lg:text-[40px] text-[22px] font-bold text-center px-[15%]">Lectures, workshops & master-classes</h1>
