@@ -646,6 +646,10 @@ video {
   margin-right: 3rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mr-4 {
   margin-right: 1rem;
 }
@@ -692,6 +696,10 @@ video {
 
 .mt-\[20px\] {
   margin-top: 20px;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -806,6 +814,10 @@ video {
   width: 82%;
 }
 
+.w-\[85px\] {
+  width: 85px;
+}
+
 .w-\[90\%\] {
   width: 90%;
 }
@@ -818,24 +830,12 @@ video {
   width: 100%;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[40\] {
-  width: 40;
-}
-
 .max-w-6xl {
   max-width: 72rem;
 }
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-shrink-0 {
-  flex-shrink: 0;
 }
 
 .flex-row {
@@ -920,6 +920,10 @@ video {
 
 .gap-\[100px\] {
   gap: 100px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
 }
 
 .gap-\[1px\] {
@@ -1305,11 +1309,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.px-\[\] {
-  padding-left: ;
-  padding-right: ;
-}
-
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -1610,10 +1609,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
-.text-\[\] {
-  color: ;
-}
-
 .underline {
   text-decoration-line: underline;
 }
@@ -1665,6 +1660,10 @@ video {
 .hover\:bg-red-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .hover\:opacity-90:hover {
@@ -1748,8 +1747,8 @@ video {
     width: 100%;
   }
 
-  .lg\:w-\[18\%\] {
-    width: 18%;
+  .lg\:w-\[15\%\] {
+    width: 15%;
   }
 
   .lg\:w-\[20\%\] {
@@ -1840,10 +1839,6 @@ video {
     width: 100%;
   }
 
-  .lg\:w-\[15\%\] {
-    width: 15%;
-  }
-
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1892,6 +1887,11 @@ video {
     padding-right: 0.5rem;
   }
 
+  .lg\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .lg\:px-\[10\%\] {
     padding-left: 10%;
     padding-right: 10%;
@@ -1900,6 +1900,11 @@ video {
   .lg\:px-\[12\%\] {
     padding-left: 12%;
     padding-right: 12%;
+  }
+
+  .lg\:px-\[8\%\] {
+    padding-left: 8%;
+    padding-right: 8%;
   }
 
   .lg\:py-\[42px\] {
@@ -1947,6 +1952,10 @@ video {
     text-align: start;
   }
 
+  .lg\:text-\[37px\] {
+    font-size: 37px;
+  }
+
   .lg\:text-\[38px\] {
     font-size: 38px;
   }
@@ -1957,14 +1966,5 @@ video {
 
   .lg\:text-\[50px\] {
     font-size: 50px;
-  }
-
-  .lg\:text-\[37px\] {
-    font-size: 37px;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 }
