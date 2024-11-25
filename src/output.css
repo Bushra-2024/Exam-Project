@@ -649,6 +649,14 @@ video {
   display: block;
 }
 
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -661,8 +669,21 @@ video {
   height: 230px;
 }
 
+<<<<<<< HEAD
 .w-\[10px\] {
   width: 10px;
+=======
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+>>>>>>> eventlist
 }
 
 .w-\[25\%\] {
@@ -693,14 +714,41 @@ video {
   width: 500px;
 }
 
+<<<<<<< HEAD
+=======
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+>>>>>>> eventlist
 .w-\[82\%\] {
   width: 82%;
 }
 
+<<<<<<< HEAD
+=======
+.w-\[85px\] {
+  width: 85px;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[95\%\] {
+  width: 95%;
+}
+
+>>>>>>> eventlist
 .w-full {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-\[40px\] {
   width: 40px;
 }
@@ -735,6 +783,18 @@ video {
 
 .w-\[85px\] {
   width: 85px;
+=======
+.w-8 {
+  width: 2rem;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[33px\] {
+  width: 33px;
+>>>>>>> eventlist
 }
 
 .flex-row {
@@ -759,6 +819,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .gap-1 {
@@ -797,8 +861,21 @@ video {
   gap: 10%;
 }
 
+<<<<<<< HEAD
 .gap-\[10px\] {
   gap: 10px;
+=======
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[1px\] {
+  gap: 1px;
+>>>>>>> eventlist
 }
 
 .gap-\[2\%\] {
@@ -946,6 +1023,10 @@ video {
 
 .p-\[5px\] {
   padding: 5px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-1 {
@@ -1318,6 +1399,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
 .shadow-2xl {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1346,8 +1432,44 @@ video {
   outline-offset: 2px;
 }
 
+<<<<<<< HEAD
 .hover\:underline:hover {
   text-decoration-line: underline;
+=======
+.hover\:bg-orange-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
+}
+
+.hover\:opacity-90:hover {
+  opacity: 0.9;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-orange-400:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(251 146 60 / var(--tw-ring-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:w-64 {
+    width: 16rem;
+  }
+>>>>>>> eventlist
 }
 
 @media (min-width: 1024px) {
@@ -1469,19 +1591,52 @@ video {
     padding-right: 8%;
   }
 
+<<<<<<< HEAD
   .lg\:px-\[8\%\] {
     padding-left: 8%;
     padding-right: 8%;
   }
 
+=======
+>>>>>>> eventlist
   .lg\:py-\[42px\] {
     padding-top: 42px;
     padding-bottom: 42px;
   }
 
+<<<<<<< HEAD
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+=======
+  .lg\:px-\[10\%\] {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
+>>>>>>> eventlist
+  }
+
+  .lg\:pr-\[100px\] {
+    padding-right: 100px;
+  }
+
+  .lg\:pr-\[200px\] {
+    padding-right: 200px;
+  }
+
+  .lg\:pr-\[230px\] {
+    padding-right: 230px;
+  }
+
+  .lg\:pr-\[280px\] {
+    padding-right: 280px;
+  }
+
+  .lg\:pr-\[50px\] {
+    padding-right: 50px;
   }
 
   .lg\:text-right {
