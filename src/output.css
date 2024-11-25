@@ -572,6 +572,11 @@ video {
   margin-bottom: 20%;
 }
 
+.my-\[5\%\] {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 .mb-1 {
   margin-bottom: 0.25rem;
 }
@@ -597,8 +602,29 @@ video {
   margin-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
 .mr-3 {
   margin-right: 0.75rem;
+=======
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.ml-\[20\%\] {
+  margin-left: 20%;
+}
+
+.mr-12 {
+  margin-right: 3rem;
+}
+
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+>>>>>>> contact
 }
 
 .mt-1 {
@@ -657,6 +683,10 @@ video {
   display: block;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -665,6 +695,21 @@ video {
   display: none;
 }
 
+<<<<<<< HEAD
+=======
+.h-32 {
+  height: 8rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+>>>>>>> contact
 .h-\[230px\] {
   height: 230px;
 }
@@ -677,8 +722,21 @@ video {
   height: 50px;
 }
 
+<<<<<<< HEAD
 .h-8 {
   height: 2rem;
+=======
+.h-\[90px\] {
+  height: 90px;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-8 {
+  width: 2rem;
+>>>>>>> contact
 }
 
 .w-\[100\%\] {
@@ -738,7 +796,10 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> contact
 .w-\[85px\] {
   width: 85px;
 }
@@ -756,6 +817,7 @@ video {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-\[50px\] {
   width: 50px;
 }
@@ -766,6 +828,14 @@ video {
 
 .w-\[100px\] {
   width: 100px;
+=======
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
+>>>>>>> contact
 }
 
 .flex-row {
@@ -848,10 +918,13 @@ video {
   gap: 10px;
 }
 
+<<<<<<< HEAD
 .gap-\[10px\] {
   gap: 10px;
 }
 
+=======
+>>>>>>> contact
 .gap-\[1px\] {
   gap: 1px;
 >>>>>>> eventlist
@@ -965,6 +1038,24 @@ video {
   background-color: rgb(245 47 110 / var(--tw-bg-opacity, 1));
 }
 
+<<<<<<< HEAD
+=======
+.bg-\[\#F89828\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 152 40 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F95514\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 85 20 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\#F95613\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 86 19 / var(--tw-bg-opacity, 1));
+}
+
+>>>>>>> contact
 .bg-\[\#FB482D\] {
   --tw-bg-opacity: 1;
   background-color: rgb(251 72 45 / var(--tw-bg-opacity, 1));
@@ -1035,6 +1126,33 @@ video {
   background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
+=======
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+>>>>>>> contact
 .p-\[1px\] {
   padding: 1px;
 }
@@ -1060,6 +1178,11 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .px-2 {
@@ -1380,6 +1503,10 @@ video {
   font-weight: 700;
 }
 
+.font-medium {
+  font-weight: 500;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -1514,9 +1641,16 @@ video {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .hover\:underline:hover {
   text-decoration-line: underline;
 =======
+=======
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+>>>>>>> contact
 .hover\:bg-orange-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
@@ -1554,6 +1688,11 @@ video {
 .focus\:ring-orange-400:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(251 146 60 / var(--tw-ring-opacity, 1));
+}
+
+.focus\:ring-orange-500:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(249 115 22 / var(--tw-ring-opacity, 1));
 }
 
 @media (min-width: 768px) {
@@ -1668,6 +1807,10 @@ video {
     width: 60%;
   }
 
+  .lg\:w-\[65\%\] {
+    width: 65%;
+  }
+
   .lg\:w-\[70\%\] {
     width: 70%;
   }
@@ -1757,6 +1900,7 @@ video {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   .lg\:px-\[8\%\] {
     padding-left: 8%;
     padding-right: 8%;
@@ -1764,6 +1908,8 @@ video {
 
 =======
 >>>>>>> eventlist
+=======
+>>>>>>> contact
   .lg\:py-\[42px\] {
     padding-top: 42px;
     padding-bottom: 42px;
