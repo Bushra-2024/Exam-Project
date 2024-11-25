@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventgrid</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class=" flex lg:px-[8%] px-[5%] justify-between font-semibold py-8 text-[#424551]">
+    <img src="./img/logo.png" alt="" class="lg:hidden block w-[85px] mr-3">
+    <div class="hidden lg:flex items-start gap-[10px]">
+        <img src="./img/logo.png" alt="" class="">
+        <a href="./index.html" class="hover:underline">Homepage</a>
+        <a href="./aboutus.html" class="hover:underline">About Us</a>
+        <a href="./Courses.html" class="hover:underline">Courses</a>
+        <a href="./course.html" class="hover:underline">Course</a>
+        <a href="./eventslist.html" class="hover:underline">Event List</a>
+        <a href="./eventgrid.html" class="hover:underline text-[#FF3F3A]">Event Grid</a>
+        <a href="./event.html" class="hover:underline ">Event</a>
+        <a href="./blog.html" class="hover:underline">Blog</a>
+        <a href="./singlepost.html" class="hover:underline">Single Post</a>
+        <a href="./contact.html" class="hover:underline">Contact</a>
+    </div>
+    <div class="flex gap-1 items-center">
+        <button class="bg-[#F95514] text-white lg:px-5 py-1 border border-transparent rounded">
+            Get consultation
+        </button>
+        <button>Log in / Register</button>
+    </div>
+</nav>
+
+    <header class=" py-20">
+        <h2 class="text-center font-semibold text-xl">Our events</h2>
+        <h1 class="lg:text-[40px] text-[22px] font-bold text-center px-[15%]">Lectures, workshops & master-classes</h1>
+    </header>
+    <section>
+        <div class="lg:flex items-center justify-center p-4 bg-white border rounded-md lg:px-[10%] px-[20%] gap-10 my-20">
+            <div class="flex items-center gap-2">
+              <label for="category" class="text-sm font-semibold">Event Category</label>
+              <select id="category" class="p-2 border border-gray-300">
+                <option value="all-themes">All Themes</option>
+              </select>
+            </div>
+          
+            <div class="flex items-center gap-1">
+              <label for="sort" class="text-sm font-semibold">Sort By</label>
+              <select id="sort" class="p-2 border border-gray-300">
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+
+            <div class="flex items-center gap-1">
+              <label for="show" class="text-sm font-semibold">Show</label>
+              <input id="show" type="number" value="9" class=" p-[1px] w-[33px] text-center border border-gray-300">
+              <span class="text-sm text-gray-700">events per page</span>
+            </div>
+            
+            <div class="flex items-center justify-center p-2 border border-gray-300">
+              <input type="text" placeholder="Search events...">
+              <img src="img/Vector (Stroke).png" alt="">
+            </div>
+           <img src="./img/view.png" alt="" class="hidden lg:block">
+        </div>
+    <div class="flex flex-col px-[12%]">
+        <div class="flex flex-wrap justify-between">
+          <div class="w-full lg:w-[33%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">05 Aug</div>
+            <div class="text-sm text-gray-500">11:00 - 14:00</div>
+            <h3 class="font-bold mt-2 text-gray-700">Formation of the organizational structure of the company in the face of uncertainty.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online master-class</p>
+            <button class="w-full mt-4 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+          </div>
+         
+          <div class="w-full lg:w-[34%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">24 Jul</div>
+            <div class="text-sm text-gray-500">11:00 - 12:30</div>
+            <h3 class="font-bold mt-2 text-gray-700">Building a customer service department. Best Practices.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online lecture</p>
+            <button class="w-full mt-10 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+          </div>
+        
+          <div class="w-full lg:w-[33%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">16 Jul</div>
+            <div class="text-sm text-gray-500">10:00 - 13:00</div>
+            <h3 class="font-bold mt-2 text-gray-700">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online workshop</p>
+            <button class="w-full mt-4 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+          </div>
+        </div>
+  
+    
+        <div class="flex flex-wrap justify-between my-10">
+          <div class="w-full lg:w-[30%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">10 Jul</div>
+            <div class="text-sm text-gray-500">09:00 - 14:00</div>
+            <h3 class="font-bold mt-2 text-gray-700">Find and evaluate: search and assessment tools for candidates.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online workshop</p>
+            <button class="w-full mt-10 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+          </div>
+          <div class="w-full lg:w-[30%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">27 Jun</div>
+            <div class="text-sm text-gray-500">15:00 - 19:00</div>
+            <h3 class="font-bold mt-2 text-gray-700">Connection to Microsoft Excel and Google Sheets, Data Visualization in Power BI.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online master-class</p>
+            <button class="w-full mt-4 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+          </div>
+          <div class="w-full lg:w-[30%] bg-white border rounded-lg shadow p-4">
+            <div class="text-red-500 text-3xl font-semibold">15 Jun</div>
+            <div class="text-sm text-gray-500">11:00 - 12:00</div>
+            <h3 class="font-bold mt-2 text-gray-700">Marketing or growth hacking: main differences and what business needs.</h3>
+            <p class="text-sm text-gray-500 mt-2">Online lecture</p>
+            <button class="w-full mt-4 px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600">View more</button>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap justify-between">
+            <div class="w-full lg:w-[33%] bg-white border rounded-lg shadow p-4">
+              <div class="text-red-500 text-3xl font-semibold">05 Aug</div>
+              <div class="text-sm text-gray-500">11:00 - 14:00</div>
+              <h3 class="font-bold mt-2 text-gray-700">Formation of the organizational structure of the company in the face of uncertainty.</h3>
+              <p class="text-sm text-gray-500 mt-2">Online master-class</p>
+              <button class="w-full mt-4 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+            </div>
+           
+            <div class="w-full lg:w-[34%] bg-white border rounded-lg shadow p-4">
+              <div class="text-red-500 text-3xl font-semibold">24 Jul</div>
+              <div class="text-sm text-gray-500">11:00 - 12:30</div>
+              <h3 class="font-bold mt-2 text-gray-700">Building a customer service department. Best Practices.</h3>
+              <p class="text-sm text-gray-500 mt-2">Online lecture</p>
+              <button class="w-full mt-10 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+            </div>
+          
+            <div class="w-full lg:w-[33%] bg-white border rounded-lg shadow p-4">
+              <div class="text-red-500 text-3xl font-semibold">16 Jul</div>
+              <div class="text-sm text-gray-500">10:00 - 13:00</div>
+              <h3 class="font-bold mt-2 text-gray-700">How to apply methods of speculative design in practice. Worldbuilding prototyping.</h3>
+              <p class="text-sm text-gray-500 mt-2">Online workshop</p>
+              <button class="w-full mt-4 px-4 py-2 border border-red-500 text-red-500 rounded-md hover:bg-red-50">View more</button>
+            </div>
+          </div>
+    
+      </div>
+  
+      <div class="flex justify-center items-center gap-2 mt-10">
+        <button class="w-8 h-8 border rounded-md text-[#FF3F3A] text-lg">1</button>
+        <button class="w-8 h-8 border rounded-md text-gray-500">2</button>
+        <button class="w-8 h-8 border rounded-md text-gray-500">3</button>
+        <button class="w-8 h-8 border rounded-md text-gray-500">4</button>
+        <img src="./img/Line (Stroke)2.png" alt="">
+      </div>
+    </section>
+
+    <section class="bg-[#FEDBD3] flex pt-5 mt-20">
+        <img src="./img/illustration (3).png" alt="" class="hidden lg:flex pt-[20%]">
+        <div class="lg:w-[50%] m-5 pt-10">
+            <div>
+                <h3 class="text-[20px] font-semibold pt-10 text-center">Don’t miss anything</h3>
+                <h2 class="lg:text-[40px] text-[30px] font-bold pb-2 text-center">Subscribe to the Createx School announcements</h2>
+            </div>
+            <div class="flex gap-5 justify-center">
+                <input type="text" placeholder="Your working email" class="bg-white py-2 lg:px-16 ">
+                <button class="bg-[#FF3F3A] text-[white] lg:w-[20%] lg:h-[50px] w-[30%] border rounded-xl">Subscribe</button>
+            </div>
+        </div>
+        <img src="./img/illustration (3).png" alt="" class="hidden lg:flex pt-[20%]">
+    </section>
+
+    <footer class="text-white">
+        <div class="bg-[#1E212C] px-[6%] lg:px-[12%] py-16 flex flex-col lg:flex-row gap-10 lg:gap-20 text-[13px]">
+            <div class="lg:w-[30%]">
+                <img src="./img/logo3.png" alt="Createx Logo" class="mb-6">
+                <p class="leading-relaxed mb-6">
+                    Createx Online School is a leader in online studying. We have lots of courses and programs from the
+                    main market experts. We provide relevant approaches to online learning, internships and employment
+                    in the largest companies in the country.
+                </p>
+                <img src="./img/socials.png" alt="Social Media Links">
+            </div>
+            <div class="leading-loose">
+                <h4 class="font-bold mb-4">SITEMAP</h4>
+                <ul class="space-y-2">
+                    <li>About Us</li>
+                    <li>Courses</li>
+                    <li>Events</li>
+                    <li>Blog</li>
+                    <li>Contacts</li>
+                </ul>
+            </div>
+    
+            <div>
+                <h4 class="font-bold mb-4">COURSES</h4>
+                <ul class="space-y-2">
+                    <li>Marketing</li>
+                    <li>Management</li>
+                    <li>HR & Recruiting</li>
+                    <li>Design</li>
+                    <li>Development</li>
+                </ul>
+            </div>
+            <div class="leading-loose">
+                <h4 class="font-bold mb-4">CONTACT US</h4>
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-2">
+                        <img src="./img/Rectangle (Stroke).png" alt="Phone Icon">(405) 555-0128
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <img src="./img/Mail.png" alt="Mail Icon">hello@createx.com
+                    </li>
+                </ul>
+            </div>
+            <div class="leading-loose lg:w-[30%]">
+                <h4 class="font-bold mb-4">SIGN UP TO OUR NEWSLETTER</h4>
+                <div class="flex items-center rounded-md overflow-hidden mb-4 bg-[#393C46] p-[5px]">
+                    <input
+                        type="text"
+                        placeholder="Email address"
+                        class="py-2 px-4 w-full bg-[#393C46] outline-none"
+                    >
+                    <button>
+                        <img src="./img/Right.png" alt="" class="pr-4">
+                    </button>
+                </div>
+                <p class="text-sm">
+                    *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+                </p>
+            </div>
+        </div>
+        <div class="bg-[#292C37] flex flex-col lg:flex-row justify-between py-4 text-sm px-[6%] lg:px-[12%]">
+            <p>© All rights reserved. Made with ❤️ by Createx Studio</p>
+            <p class="mt-2 lg:mt-0 text-center lg:text-right">GO TO TOP</p>
+        </div>
+    </footer>
+</body>
+</html>
